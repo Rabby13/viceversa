@@ -20,4 +20,5 @@ from .import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('reversed_text/', views.reversed_text, name="reversed_text"),
 ]
